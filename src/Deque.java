@@ -186,8 +186,8 @@ public class Deque<Item> implements Iterable<Item> {
      * The class that defines a node in the liked list
      */
     private class Node {
-        private Item item;
-        private Node next;
-        private Node prev;
+        private Item item; // the item the node is holding
+        private Node next; // reference to the next node in memory
+        private Node prev; // reference to the previous node in memory
     }
 }
